@@ -19,6 +19,7 @@ EnigmaXML content of `.musx` files and other publicly available resources.
 | [denigma](https://github.com/openmusx/denigma) | Command-line converter and C++ libraries. Converts MUSX to MusicXML, MNX, EnigmaXML, MSS, and SVG. Also builds a WebAssembly module. [Docs](https://openmusx.github.io/denigma/) |
 | [denigma-online](https://github.com/openmusx/denigma-online) | Static website that runs the Denigma WebAssembly module entirely in the browser. Your files never leave your machine. [Try it](https://denigma.robertgpatterson.com/) |
 | [musxdom](https://github.com/openmusx/musxdom) | C++17 document object model for EnigmaXML, the format inside `.musx` archives. The foundation the other projects build on. [Docs](https://openmusx.github.io/musxdom/) |
+| [finale-mus-reader](https://github.com/openmusx/finale-mus-reader) | C++ library that reads legacy Finale `.mus` files (Finale 1.0 through Finale 2012) and builds musxdom documents from them. Supports all score content except ossias. |
 | [smufl-mapping](https://github.com/openmusx/smufl-mapping) | C++ lookup tables for SMuFL glyph names, codepoints, and metadata, including mappings from legacy Finale music fonts. Bundled Bravura font data is under the SIL Open Font License. |
 | [denigma-examples](https://github.com/openmusx/denigma-examples) | Standalone native and WebAssembly examples showing how to consume the Denigma libraries from your own CMake project. |
 
